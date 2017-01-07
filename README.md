@@ -3,10 +3,16 @@
 ===
 ### Demo:
 ![alt tag](https://raw.githubusercontent.com/fr1sk/fb-invite/master/preview.gif)
-___Demo showing invitation to event, same procedure for page just push first button.___
+####_Demo showing invitation to event, same procedure for page just push first button._
 ===
 ###How to use it?
-Go to invitation page, wait friends to load, scroll to load more friends and start **fb-invite**.
+* Go to invitation page 
+* Wait friends to load
+* Scroll to load more friends (not recommended more than 500 per fb-invitation)
+* Start fb-invite
+* Choose button for page or event
+* Be patient
+
 ===
 ### Install:
 * Clone repository to your local machine or download it as zip file and extract it
