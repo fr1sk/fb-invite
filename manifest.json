@@ -1,0 +1,15 @@
+{
+
+	"name": "fb-invite",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "One-click invite all your friends!",
+	"permissions": [
+    "activeTab"
+  ],
+	"browser_action": {
+		"default_icon": "icon2.png",
+		"default_popup": "popup.html"
+	}
+
+}

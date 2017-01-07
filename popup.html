@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>fb-invite</title>
+    <script src="popup.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script> -->
+    <style>
+
+        body{
+            min-width:300px;
+            /*background-color: #BBDEFB;*/
+        }
+        .element{
+            margin-top: 20px;
+            margin-bottom: 10px;
+
+        }
+
+        textarea {
+           resize: none;
+           /*background-color: #363F45 !important;*/
+        }
+
+        #click{
+             background-color:#2196F3;
+        }
+
+        #clickEvent{
+             background-color:#FE5621;
+        }
+        .load{
+            position: fixed;
+            z-index: 1;
+            text-align: center;
+            bottom: 20px;
+            left: 125px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id+="content">
+        <button type="button" id="click" class="btn btn-primary btn-block">Invite all to page</button>
+        <button type="button" id="clickEvent" class="btn btn-primary btn-block">Invite all to event</button>
+        <textarea id="outputLog" rows="5" class="form-control btn-block" name="output" value="" placeholder="Go to FB invite screen and press some of buttons above. Recommended to invite less then 500 friends per one click." readonly></textarea>
+        <img src="loading.gif" width="50" height="50" class="load"  id="load" style="display: none;" alt="Loading...">
+    </div>
+</body>
+</html>
