@@ -1,4 +1,6 @@
-# fb-invite
+
+#<img src="icon2.png" width="50"><span>&nbsp;fb-invite</span>
+
 ###Google chrome extension that helps you to invite all your friends to page or event
 ===
 ### Demo:
@@ -11,7 +13,7 @@
 * Scroll to load more friends (not recommended more than 500 per fb-invitation)
 * Start fb-invite
 * Choose button for page or event
-* Be patient
+* Be patient, it may take some time, expecially if you invite tons of friends!
 
 ===
 ### Install:
