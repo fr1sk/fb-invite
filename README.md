@@ -1,13 +1,13 @@
 
-#<img src="icon2.png" width="50"><span>&nbsp;fb-invite</span>
+<img src="icon2.png" width="50"><span>&nbsp;fb-invite</span>
 
-###Google chrome extension that helps you to invite all your friends to page or event
+### Google chrome extension that helps you to invite all your friends to page or event
 ===
 ### Demo:
 ![alt tag](https://raw.githubusercontent.com/fr1sk/fb-invite/master/preview.gif)
-####_Demo showing invitation to event, same procedure for page just push first button._
+#### _Demo showing invitation to event, same procedure for page just push first button._
 ===
-###How to use it?
+### How to use it?
 * Go to invitation page 
 * Wait friends to load
 * Scroll to load more friends (not recommended more than 500 per fb-invitation)
